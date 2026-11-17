@@ -1,0 +1,3 @@
+CREATE USER postgres WITH PASSWORD 'postgres123';
+CREATE DATABASE esquema01 OWNER postgres;
+GRANT ALL PRIVILEGES ON DATABASE esquema01 TO postgres;
